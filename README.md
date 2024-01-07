@@ -7,46 +7,21 @@ The weather feature is built using OpenWeather API, which can get the current we
 ---
 
 ## Files
-**dialogue_pair_up.py - **
+**dialogue_pair_up.py:** Split up each line in the cleaned data txt file and pair them up as dialogues  
+**preprocessing.py:** Prepare the encoder input, decoder input, and decoder target matrix  
+**training_model.py:** Train the model with chosen dimensionality, batch_size, and epochs  
+**test_model.py:** Test the model with the generated model trained_model.h5  
+**chatbot.py:** Apply this model to a chatbot that can respond with the predicted sequence 
+**dispaly.py:** GUI of this chatbot  
+**imsdb_sample_movie_scraper:** A sample scraper for movie dialogues. (The code may need a little adjustment to fit the different formats of different movie scripts.)
 
 ---
 
 ## Data
-
-- Technology 1
-- Technology 2
-
-[Back To The Top](#read-me-template)
-
----
-
-## How To Use
-
-#### Installation
+**friends_dialogues.txt:** Cleaned dialogues from the Friends TV series script. Originally from https://www.kaggle.com/datasets/blessondensil294/friends-tv-series-screenplay-script?resource=download.  
+**daily_dialogues.txt:**  Cleaned dialogues from https://www.kaggle.com/datasets/kreeshrajani/3k-conversations-dataset-for-chatbot.
 
 
 
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
-
-## References
-[Back To The Top](#read-me-template)
-
----
-
-## License
 
 
-
-## Author Info
-
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
-
-[Back To The Top](#read-me-template)
