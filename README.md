@@ -1,5 +1,5 @@
 ## Project Summary
-This is a chatbot built using seq2seq model in Tensorflow. (The model is implemented based on Codeacademy's tutorial.) It has an interactive display interface and is able to answer weather-related questions of a specific city accurately. \\
+This is a chatbot built using seq2seq model in Tensorflow. (The model is implemented based on Codeacademy's tutorial.) It has an interactive display interface and is able to answer weather-related questions of a specific city accurately.  
 The model 
 
 ---
