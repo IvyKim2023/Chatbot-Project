@@ -13,7 +13,7 @@ The weather feature is built using OpenWeather API, which can get the current we
 **test_model.py:** Test the model with the generated model trained_model.h5  
 **chatbot.py:** Apply this model to a chatbot that can respond with the predicted sequence   
 **dispaly.py:** GUI of this chatbot  
-**imsdb_sample_movie_scraper:** A sample scraper for movie dialogues. (The code may need a little adjustment to fit the different formats of different movie scripts.)
+**imsdb_sample_movie_scraper:** A sample scraper for movie dialogues (the code may need a little adjustment to fit the different formats of different movie scripts.)
 
 ---
 
