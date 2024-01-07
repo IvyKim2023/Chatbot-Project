@@ -11,7 +11,7 @@ The weather feature is built using OpenWeather API, which can get the current we
 **preprocessing.py:** Prepare the encoder input, decoder input, and decoder target matrix  
 **training_model.py:** Train the model with chosen dimensionality, batch_size, and epochs  
 **test_model.py:** Test the model with the generated model trained_model.h5  
-**chatbot.py:** Apply this model to a chatbot that can respond with the predicted sequence 
+**chatbot.py:** Apply this model to a chatbot that can respond with the predicted sequence   
 **dispaly.py:** GUI of this chatbot  
 **imsdb_sample_movie_scraper:** A sample scraper for movie dialogues. (The code may need a little adjustment to fit the different formats of different movie scripts.)
 
