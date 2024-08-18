@@ -1,5 +1,5 @@
 ## Project Summary
-This is a chatbot built using seq2seq model in Tensorflow. (The model is implemented based on Codeacademy's tutorial.) It has an interactive display interface and is able to answer weather-related questions of a specific city accurately.  
+This is a chatbot built using seq2seq model in Tensorflow. It has an interactive display interface and is able to answer weather-related questions of a specific city accurately.  
 The model derived by the current code will be a model trained by 1000 dialogues in daily_dialogues.txt with batch_size = 10 and epochs = 1000. It takes hours to run on a CPU and has limited performance, but is able to handle a conversation that is rather similar to the first 1000 dialogues in daily_dialogues.txt.  
 To have better performance, larger data and larger epochs will be needed and the code is better run on a GPU.  
 The weather feature is built using OpenWeather API, which can get the current weather of a given city.
